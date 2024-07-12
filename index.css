@@ -42,11 +42,13 @@ body {
   grid-column: span 2;
   border-radius: 10px;
   position: relative;
+  z-index: 1;
 }
 .img-name-container {
   display: flex;
   align-items: center;
-  z-index: 2;
+  position: relative;
+  z-index: 1;
 }
 .profile {
   border-radius: 50%;
@@ -59,6 +61,8 @@ body {
 h3 {
   color: hsl(210, 46%, 95%);
   margin: 0;
+  position: relative;
+  z-index: 1;
 }
 .grey-text {
   color: hsl(0, 0%, 81%);
@@ -69,12 +73,18 @@ h3 {
   margin-left: auto;
   position: relative;
   right: 80px;
+  position: absolute;
+  top: -10px; /* Adjust as needed */
+  right: 40px; /* Adjust as needed */
+  z-index: 0;
+  width: 100px;
 }
 .bold-text {
   font-size: 18px;
   color: hsl(210, 46%, 95%);
   font-weight: 700;
   margin: 0;
+  position: relative;
   z-index: 1;
 }
 .light-text {
@@ -83,6 +93,8 @@ h3 {
   color: hsl(0, 0%, 81%);
   margin-top: 10px;
   font-size: 17px;
+  position: relative;
+  z-index: 1;
 }
 .dark-grey-container {
   background-color: hsl(217, 19%, 35%);
