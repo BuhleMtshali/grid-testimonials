@@ -6,3 +6,20 @@ body {
   max-width: 1440px;
   margin: 0 auto;
 }
+.purple-container {
+  background-color: hsl(263, 55%, 52%);
+}
+.img-name-container {
+  display: flex;
+  align-items: center;
+}
+.profile {
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: center;
+  width: 55px;
+  height: 55px;
+}
+.quotes {
+  margin-left: auto;
+}
