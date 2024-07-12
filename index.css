@@ -1,6 +1,7 @@
 body {
   font-family: "Barlow Semi Condensed", sans-serif;
   background-color: #ecf2f7;
+  text-align: left;
 }
 .container {
   max-width: 1440px;
@@ -8,6 +9,7 @@ body {
 }
 .purple-container {
   background-color: hsl(263, 55%, 52%);
+  padding: 15px;
 }
 .img-name-container {
   display: flex;
@@ -19,7 +21,31 @@ body {
   object-position: center;
   width: 55px;
   height: 55px;
+  padding: 10px;
+}
+h3 {
+  color: hsl(210, 46%, 95%);
+  margin: 0;
+}
+.grey-text {
+  color: hsl(0, 0%, 81%);
+  font-weight: 500;
+  font-size: 15px;
 }
 .quotes {
   margin-left: auto;
+  position: relative;
+  right: 80px;
+}
+.bold-text {
+  font-size: 18px;
+  color: hsl(210, 46%, 95%);
+  font-weight: 700;
+  margin: 0;
+}
+.light-text {
+  font-size: 16px;
+  font-weight: 400;
+  color: hsl(0, 0%, 81%);
+  margin-top: 10px;
 }
