@@ -49,3 +49,17 @@ h3 {
   color: hsl(0, 0%, 81%);
   margin-top: 10px;
 }
+.dark-grey-container {
+  background-color: hsl(217, 19%, 35%);
+  padding: 15px;
+}
+.vertical-white-container {
+  background-color: hsl(0, 0%, 100%);
+}
+.kira {
+  color: #4d545d;
+}
+.dark-blue {
+  color: hsl(219, 29%, 14%);
+  font-size: 19px;
+}
