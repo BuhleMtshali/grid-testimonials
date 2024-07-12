@@ -2,3 +2,7 @@ body {
   font-family: "Barlow Semi Condensed", sans-serif;
   background-color: #ecf2f7;
 }
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
